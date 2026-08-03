@@ -140,23 +140,23 @@
               
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
-                <form action="#" class="p-5 bg-light">
+                <form action="" method="POST" class="p-5 bg-light">
                   <div class="form-group">
                     <label for="name">Name *</label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name" name="name" required>
                   </div>
                   <div class="form-group">
                     <label for="email">Email *</label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" class="form-control" id="email" name="email" required>
                   </div>
                   <div class="form-group">
                     <label for="website">Website</label>
-                    <input type="url" class="form-control" id="website">
+                    <input type="url" class="form-control" id="website" name="website">
                   </div>
 
                   <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control" name="message"></textarea>
                   </div>
                   <div class="form-group">
                     <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">

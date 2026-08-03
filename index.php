@@ -19,7 +19,7 @@
 				            <h1 class="mb-4 mt-3">Catch Your Own <br><span>Stylish &amp; Look</span></h1>
 				            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
 				            
-				            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Discover Now</a></p>
+				            <p><a href="shop.php" class="btn btn-primary px-5 py-3 mt-3">Discover Now</a></p>
 				          </div>
 		            </div>
 		          </div>
@@ -41,7 +41,7 @@
 				            <h1 class="mb-4 mt-3">A Thouroughly <span>Modern</span> Woman</h1>
 				            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
 				            
-				            <p><a href="#" class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
+				            <p><a href="shop.php" class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
 				          </div>
 		            </div>
 		          </div>
@@ -121,12 +121,12 @@
     		<div class="row">
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="Colorlib Template">
     						<span class="status">30%</span>
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
@@ -142,19 +142,19 @@
 	    						</div>
 	    					</div>
 	    					<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -170,19 +170,19 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -198,19 +198,19 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -226,8 +226,8 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
@@ -246,7 +246,7 @@
     				<div class="text py-3 py-md-5">
 	            <h2 class="mb-4">New Women's Clothing Summer Collection 2019</h2>
 	            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-	            <p><a href="#" class="btn btn-white px-4 py-3">Shop now</a></p>
+	            <p><a href="shop.php" class="btn btn-white px-4 py-3">Shop now</a></p>
     				</div>
     			</div>
     		</div>
@@ -259,7 +259,7 @@
     				<div class="text text-2 py-md-5">
 	            <h2 class="mb-4">New Men's Clothing Summer Collection 2019</h2>
 	            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-	            <p><a href="#" class="btn btn-white px-4 py-3">Shop now</a></p>
+	            <p><a href="shop.php" class="btn btn-white px-4 py-3">Shop now</a></p>
     				</div>
     			</div>
     		</div>
@@ -279,12 +279,12 @@
     		<div class="row">
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" alt="Colorlib Template">
     						<span class="status">30%</span>
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
@@ -300,19 +300,19 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" alt="Colorlib Template">
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -328,19 +328,19 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -356,19 +356,19 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" alt="Colorlib Template">
+    					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="#">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span>$120.00</span></p>
@@ -384,8 +384,8 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="#" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-    							<a href="#" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
