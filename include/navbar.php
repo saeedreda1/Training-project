@@ -1,4 +1,10 @@
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.php">Sigma</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +27,11 @@
 	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 			  <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
-			  <li class="nav-item">
-    			<a href="login.php" class="nav-link">Login</a>
-			  </li>
-
-			  <li class="nav-item">
-    			<a href="register.php" class="nav-link">Register</a>
-			  </li>
-
+			<li class="nav-item">
+    			<a href="logout.php" class="nav-link">
+        		Logout
+    			</a>
+			</li>
 			  <li class="nav-item cta cta-colored">
     			<a href="cart.php" class="nav-link">
         	  <span class="icon-shopping_cart"></span>[0]

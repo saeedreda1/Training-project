@@ -19,21 +19,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 ftco-animate">
-						<h2 class="mb-3">8 Tips For Shopping</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+						<h2 class="mb-3">Master Your Style: 8 Rules for Smarter Shopping</h2>
+            <p>From picking the right sneaker fit for all-day comfort to building a versatile wardrobe that turns heads, we’ve got you covered. Check out our top 8 shopping hacks to elevate your daily look without breaking the bank.</p>
             <p>
               <img src="images/image_1.jpg" alt="" class="img-fluid">
             </p>
-            <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
-            <h2 class="mb-3 mt-5">#2. Creative WordPress Themes</h2>
-            <p>Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
+            <p>Want to make the most out of your shopping? Discover our essential tips on sizing, fabric care, and outfit pairing to ensure you look fresh every single time you step out</p>
+            
+            <h2 class="mb-3 mt-5">#2. Invest in Timeless Basics</h2>
+            <p>Building a solid wardrobe starts with the essentials. Classic tees, well-fitted jeans, and versatile sneakers form the foundation of any great look. These timeless pieces make it incredibly easy to mix and match, ensuring you always have something stylish to wear without overthinking it.</p>
+
             <p>
               <img src="images/image_2.jpg" alt="" class="img-fluid">
             </p>
-            <p>Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
-            <p>Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
-            <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
-            <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
+
+            <p>When it comes to building a long-lasting wardrobe, quality should always come before quantity. High-grade fabrics not only feel incredibly comfortable against your skin, but they also maintain their shape, vibrant colors, and premium feel even after countless washes.</p>
+            
+            <p>Pay close attention to the details that define superior craftsmanship. Durable stitching, reinforced seams, and premium hardware like smooth zippers and sturdy buttons are clear indicators that a garment is built to withstand daily wear and tear.</p>
+
+            <p>Choosing breathable, natural cotton blends and premium synthetic materials ensures all-day comfort and flexibility. Whether you are wearing a casual hoodie or a sleek pair of sneakers, high-quality materials adapt to your lifestyle without compromising on style.</p>
+
+            <p>Ultimately, investing in well-made apparel means your clothes will look brand new for years to come. By prioritizing craftsmanship and premium textiles, you create a timeless look that feels as great as it looks every single day.</p>
+
             <div class="tag-widget post-tag-container mb-5 mt-5">
               <div class="tagcloud">
                 <a href="#" class="tag-cloud-link">Life</a>
@@ -44,12 +51,9 @@
             </div>
             
             <div class="about-author d-flex p-4 bg-light">
-              <div class="bio align-self-md-center mr-4">
-                <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
-              </div>
               <div class="desc align-self-md-center">
-                <h3>Lance Smith</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                <h3>Saeed Reda</h3>
+                <p>Digital Marketing Strategist passionate about growth marketing, brand development, and e-commerce consumer behavior. Helping brands scale through data-driven campaigns</p>
               </div>
             </div>
 
@@ -58,62 +62,46 @@
               <h3 class="mb-5">6 Comments</h3>
               <ul class="comment-list">
                 <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
                   <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <h3>Ahmed Mohammed</h3>
+                    <div class="meta">July 3, 2026 at 2:35pm</div>
+                    <p>It's great! Truly insightful breakdown of modern marketing tactics. The section on customer engagement was especially helpful</p>
                     <p><a href="#" class="reply">Reply</a></p>
                   </div>
                 </li>
 
                 <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
                   <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <h3>Saeed Taha</h3>
+                    <div class="meta">July 3, 2026 at 2:33pm</div>
+                    <p>Great insights! I particularly liked the part about leveraging user-generated content for brand authenticity.</p>
                     <p><a href="#" class="reply">Reply</a></p>
                   </div>
 
                   <ul class="children">
                     <li class="comment">
-                      <div class="vcard bio">
-                        <img src="images/person_1.jpg" alt="Image placeholder">
-                      </div>
                       <div class="comment-body">
-                        <h3>John Doe</h3>
-                        <div class="meta">June 27, 2018 at 2:21pm</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <h3>Ahmed Ashraf</h3>
+                        <div class="meta">July 3, 2026 at 2:30pm</div>
+                        <p>Awesome read! Brand consistency across channels is definitely something every business should prioritize nowadays</p>
                         <p><a href="#" class="reply">Reply</a></p>
                       </div>
 
-
                       <ul class="children">
                         <li class="comment">
-                          <div class="vcard bio">
-                            <img src="images/person_1.jpg" alt="Image placeholder">
-                          </div>
                           <div class="comment-body">
-                            <h3>John Doe</h3>
-                            <div class="meta">June 27, 2018 at 2:21pm</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                            <h3>Saeed Reda</h3>
+                            <div class="meta">July 3, 2026 at 2:28pm</div>
+                            <p>Totally agree! Combining SEO with targeted ads makes a huge difference in organic traffic growth</p>
                             <p><a href="#" class="reply">Reply</a></p>
                           </div>
 
                             <ul class="children">
                               <li class="comment">
-                                <div class="vcard bio">
-                                  <img src="images/person_1.jpg" alt="Image placeholder">
-                                </div>
                                 <div class="comment-body">
-                                  <h3>John Doe</h3>
-                                  <div class="meta">June 27, 2018 at 2:21pm</div>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <h3>Samir Jabr</h3>
+                                  <div class="meta">July 3, 2026 at 2:25pm</div>
+                                  <p>Great points! Data insights have transformed how we plan our promotional campaigns.</p>
                                   <p><a href="#" class="reply">Reply</a></p>
                                 </div>
                               </li>
@@ -125,19 +113,15 @@
                 </li>
 
                 <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
                   <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">June 27, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <h3>Ahmed Mohammed</h3>
+                    <div class="meta">July 3, 2026 at 2:21pm</div>
+                    <p>Thanks everyone! Glad you found these insights practical and valuable for your marketing strategy</p>
                     <p><a href="#" class="reply">Reply</a></p>
                   </div>
                 </li>
               </ul>
-              <!-- END comment-list -->
-              
+              <!-- END comment-list -->  
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
                 <form action="" method="POST" class="p-5 bg-light">

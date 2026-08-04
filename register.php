@@ -1,6 +1,70 @@
-    <?php
-    include 'include/header.php';
-    ?>
+<?php
+
+include 'include/db.php';
+
+$message = "";
+
+if (isset($_POST['register'])) {
+
+    $fullname = trim($_POST['fullname']);
+    $email = trim($_POST['email']);
+    $password = $_POST['password'];
+    $confirm_password = $_POST['confirm_password'];
+
+    if ($password !== $confirm_password) {
+
+        $message = "Passwords do not match!";
+
+    } else {
+
+        // Check if email already exists
+        $check = $conn->prepare("SELECT id FROM users WHERE email = ?");
+        $check->bind_param("s", $email);
+        $check->execute();
+        $result = $check->get_result();
+
+        if ($result->num_rows > 0) {
+
+            $message = "This email is already registered!";
+
+        } else {
+
+            // Encrypt password
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+            // Insert user
+            $stmt = $conn->prepare(
+                "INSERT INTO users (name, email, password) VALUES (?, ?, ?)"
+            );
+
+            $stmt->bind_param(
+                "sss",
+                $fullname,
+                $email,
+                $hashed_password
+            );
+            if ($stmt->execute()) {
+
+                header("Location: index.php");
+                exit();
+
+            } else {
+
+                $message = "Something went wrong!";
+
+            }
+
+                $stmt->close();
+        }
+
+        $check->close();
+    }
+}
+?>
+
+<?php
+include 'include/header.php';
+?>
 
     <div class="container mt-5 mb-5">
         <div class="row shadow rounded overflow-hidden">
@@ -22,7 +86,7 @@
             <h1>Welcome Back!</h1>
 
             <p>
-                Sign in to your account and continue shopping with Winkel.
+                Sign in to your account and continue shopping with Sigma.
             </p>
         </div>
 
@@ -36,6 +100,11 @@
                 <p class="text-muted mb-4">
                     Enter your information to create your account
                 </p>
+                <?php if (!empty($message)): ?>
+                <div class="alert alert-info">
+                <?php echo $message; ?>
+                </div>
+                <?php endif; ?>
 
             <form method="POST">
 

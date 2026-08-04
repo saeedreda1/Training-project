@@ -1,124 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Online Fashion E-Commerce Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="styyle.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.css">
-  </head>
-<!-- Left Side -->
-<section class="auth-page">
+<?php
 
-    <div class="container">
+include 'include/db.php';
 
-        <div class="row auth-box">
 
-            <!-- LEFT SIDE -->
-            <div class="col-lg-6 auth-left-panel">
+$message = "";
 
-                <div class="auth-dark-layer">
+if (isset($_POST['login'])) {
 
-                    <span class="auth-small-title">
-                        ONLINE FASHION E-COMMERCE WEBSITE
-                    </span>
+    $email = trim($_POST['email']);
+    $password = $_POST['password'];
 
-                    <h1 class="auth-main-title">
-                        Welcome Back!
-                    </h1>
+    // Check user by email
+    $stmt = $conn->prepare(
+        "SELECT id, name, email, password FROM users WHERE email = ?"
+    );
 
-                    <p class="auth-description">
-                        Sign in to your account and continue shopping with Winkel.
-                    </p>
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
 
-                </div>
+    $result = $stmt->get_result();
 
-            </div>
+    if ($result->num_rows === 1) {
 
-            <!-- RIGHT SIDE -->
-            <div class="col-lg-6 auth-right-panel">
+        $user = $result->fetch_assoc();
 
-                <div class="auth-heading">
+        // Verify password
+        if (password_verify($password, $user['password'])) {
 
-                    <h2>Sign In</h2>
+            // Store user data in session
+            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['user_name'] = $user['name'];
+            $_SESSION['user_email'] = $user['email'];
 
-                    <p>
-                        Enter your account details to continue
-                    </p>
+            // Redirect to Home
+            header("Location: index.php");
+            exit();
 
-                </div>
+        } else {
 
-                <?php echo $message ?? ''; ?>
+            $message = "Incorrect password!";
 
-                <form method="POST" class="auth-login-form">
+        }
 
-                    <div class="auth-input-group">
+    } else {
 
-                        <label>Email Address</label>
+        $message = "This email is not registered!";
 
-                        <input
-                            type="email"
-                            name="email"
-                            class="auth-input"
-                            placeholder="Enter your email"
-                            required>
+    }
 
-                    </div>
+    $stmt->close();
+}
 
-                    <div class="auth-input-group">
+?>
 
-                        <label>Password</label>
+<?php include 'include/header.php'; ?>
 
-                        <input
-                            type="password"
-                            name="password"
-                            class="auth-input"
-                            placeholder="Enter your password"
-                            required>
+<div class="container mt-5 mb-5">
 
-                    </div>
+    <div class="row shadow rounded overflow-hidden">
 
-                    <div class="auth-extra">
 
-                        <label class="auth-check">
-                            <input type="checkbox">
-                            Remember Me
-                        </label>
+        <div class="col-md-6 p-0 position-relative">
 
-                        <a href="forgot-password.php">
-                            Forgot Password?
-                        </a>
+            <img src="images/bg_6.jpg"
+                 class="img-fluid h-100 w-100"
+                 style="object-fit:cover; min-height:650px;">
 
-                    </div>
+            <div class="image-overlay"></div>
 
-                    <button
-                        type="submit"
-                        name="login"
-                        class="auth-submit-btn">
+            <div class="welcome-text">
 
-                        Login
+                <p class="small-title"
+                   style="white-space: nowrap;">
 
-                    </button>
+                    ONLINE FASHION E-COMMERCE WEBSITE
 
-                </form>
+                </p>
 
-                <div class="auth-register">
+                <h1>
+                    Welcome Back!
+                </h1>
 
-                    Don't have an account?
+                <p>
 
-                    <a href="register.php">
-                        Create an Account
-                    </a>
+                    Sign in to your account and continue
+                    shopping with Winkel.
 
-                </div>
+                </p>
 
             </div>
 
         </div>
 
+
+
+        <div class="col-md-6 p-5">
+
+            <h1 class="mb-2 font-weight-bold">
+                Sign In
+            </h1>
+
+            <p class="text-muted mb-4">
+
+                Enter your account details to continue shopping
+
+            </p>
+
+
+            <?php if (!empty($message)): ?>
+
+                <div class="alert alert-danger">
+
+                    <?php echo $message; ?>
+
+                </div>
+
+            <?php endif; ?>
+
+
+
+            <form method="POST">
+
+
+
+                <div class="form-group mb-3">
+
+                    <label>
+                        <b>Email Address</b>
+                    </label>
+
+                    <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+
+                <div class="form-group mb-3">
+
+                    <label>
+                        <b>Password</b>
+                    </label>
+
+                    <input
+                        type="password"
+                        name="password"
+                        class="form-control"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="d-flex justify-content-between mb-4">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            name="remember"
+                        >
+
+                        Remember Me
+
+                    </label>
+
+
+                    <a href="forgot-password.php">
+
+                        Forgot Password?
+
+                    </a>
+
+                </div>
+
+
+
+                <button
+                    type="submit"
+                    name="login"
+                    class="btn btn-success btn-lg btn-block"
+                >
+
+                    Sign In
+
+                </button>
+
+
+                <div class="text-center mt-4">
+
+                    Don't have an account?
+
+                    <a href="register.php">
+
+                        Create an Account
+
+                    </a>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
     </div>
 
-</section>
+</div>
+
+
 <?php include 'include/scripts.php'; ?>
+
+</body>
+
+</html>
