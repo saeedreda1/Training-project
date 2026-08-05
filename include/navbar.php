@@ -27,16 +27,23 @@ if (session_status() === PHP_SESSION_NONE) {
 	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 			  <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
-			<li class="nav-item">
-    			<a href="logout.php" class="nav-link">
-        		Logout
-    			</a>
-			</li>
-			  <li class="nav-item cta cta-colored">
-    			<a href="cart.php" class="nav-link">
-        	  <span class="icon-shopping_cart"></span>[0]
-    			</a>
-			  </li>
+			<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="userDropdown"
+       data-toggle="dropdown">
+
+        <?php echo $_SESSION['user_name']; ?>
+
+        <span class="icon-user ml-2"></span>
+
+    </a>
+
+    <div class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item" href="cart.php">My Cart</a>
+        <a class="dropdown-item" href="checkout.php">Checkout</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item text-danger" href="logout.php">Logout</a>
+    </div>
+</li>
 
 	        </ul>
 	      </div>

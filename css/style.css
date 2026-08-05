@@ -11478,3 +11478,18 @@ blockquote.blockquote, .blog-single-content blockquote {
   background: rgba(0, 0, 0, 0.45);
 }
 
+#userDropdown{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+#userDropdown i{
+    font-size: 18px;
+}
+
+.dropdown-menu{
+    min-width: 180px;
+}
+

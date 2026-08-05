@@ -1,6 +1,6 @@
 <?php include 'include/header.php'; ?>
-
 <?php include 'include/navbar.php'; ?>
+
     <!-- END nav -->
 
     <section id="home-section" class="hero">
@@ -119,6 +119,7 @@
     	</div>
     	<div class="container">
     		<div class="row">
+    			<!-- Product 1 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="Colorlib Template">
@@ -142,12 +143,13 @@
 	    						</div>
 	    					</div>
 	    					<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=1&name=Floral Jackquard Pullover&price=80.00&image=images/product-1.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 2 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template">
@@ -170,12 +172,13 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=2&name=Floral Jackquard Pullover&price=120.00&image=images/product-2.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 3 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template">
@@ -198,12 +201,13 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=3&name=Floral Jackquard Pullover&price=120.00&image=images/product-3.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 4 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template">
@@ -226,7 +230,7 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=4&name=Floral Jackquard Pullover&price=120.00&image=images/product-4.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -277,6 +281,7 @@
     	</div>
     	<div class="container">
     		<div class="row">
+    			<!-- Product 5 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-5.jpg" alt="Colorlib Template">
@@ -300,12 +305,13 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=5&name=Floral Jackquard Pullover&price=80.00&image=images/product-5.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 6 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-6.jpg" alt="Colorlib Template">
@@ -328,12 +334,13 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=6&name=Floral Jackquard Pullover&price=120.00&image=images/product-6.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 7 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-7.jpg" alt="Colorlib Template">
@@ -356,12 +363,13 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=7&name=Floral Jackquard Pullover&price=120.00&image=images/product-7.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
     				</div>
     			</div>
+    			<!-- Product 8 -->
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
     					<a href="product-single.php" class="img-prod"><img class="img-fluid" src="images/product-8.jpg" alt="Colorlib Template">
@@ -384,7 +392,7 @@
 	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="cart.php" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=8&name=Floral Jackquard Pullover&price=120.00&image=images/product-8.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -437,7 +445,7 @@
     	</div>
     </section>
 
-<section class="ftco-section testimony-section">
+    <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
@@ -450,7 +458,6 @@
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                 
                   <div class="text">
                     <p class="mb-5 pl-4 line">The products look even better in real life than in the pictures. Exceptional value for the price.</p>
                     <p class="name">Samir Jabr</p>
@@ -460,7 +467,6 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  
                   <div class="text">
                     <p class="mb-5 pl-4 line">Customer support was super helpful and responsive. Smooth delivery process from start to finish.</p>
                     <p class="name">Ahmed Mohammed</p>
@@ -470,7 +476,6 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                 
                   <div class="text">
                     <p class="mb-5 pl-4 line">The products look even better in real life than in the pictures. Exceptional value for the price.</p>
                     <p class="name">Saeed Taha</p>
@@ -480,7 +485,6 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  
                   <div class="text">
                     <p class="mb-5 pl-4 line">Fast shipping and great packaging. Huge thanks to the team for the attention to detail.</p>
                     <p class="name">Ahmed Ashraf</p>
@@ -490,7 +494,6 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  
                   <div class="text">
                     <p class="mb-5 pl-4 line">The fabric quality is absolutely amazing and the fitting is perfect. Truly a great shopping experience!.</p>
                     <p class="name">Saeed Reda</p>
@@ -505,7 +508,7 @@
     </section>	
 	<hr>
 
-		<section class="ftco-section-parallax">
+	<section class="ftco-section-parallax">
       <div class="parallax-img d-flex align-items-center">
         <div class="container">
           <div class="row d-flex justify-content-center py-5">
@@ -526,11 +529,11 @@
         </div>
       </div>
     </section>
+
 <?php include 'include/footer.php'; ?>
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
 
 <?php include 'include/scripts.php'; ?>
 

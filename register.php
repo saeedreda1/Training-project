@@ -2,6 +2,10 @@
 
 include 'include/db.php';
 
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 $message = "";
 
 if (isset($_POST['register'])) {
@@ -45,14 +49,18 @@ if (isset($_POST['register'])) {
             );
             if ($stmt->execute()) {
 
-                header("Location: index.php");
-                exit();
+    $_SESSION['user_id'] = $conn->insert_id;
+    $_SESSION['user_name'] = $fullname;
+    $_SESSION['user_email'] = $email;
 
-            } else {
+    header("Location: index.php");
+    exit();
 
-                $message = "Something went wrong!";
+} else {
 
-            }
+    $message = "Something went wrong!";
+
+}
 
                 $stmt->close();
         }
