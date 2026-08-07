@@ -1,19 +1,27 @@
- <?php include 'include/header.php'; ?>
-
+<?php include 'include/header.php'; ?>
 <?php include 'include/navbar.php'; ?>
 
 <?php
-
 $subtotal = 0;
+$buy_now_product = null;
 
-if (isset($_SESSION['cart'])) {
-
+// التحقق لو الطلب جايلك مباشر من زرار BUY NOW
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product_id'])) {
+    $buy_now_product = [
+        'id'       => $_POST['product_id'],
+        'name'     => $_POST['product_name'],
+        'price'    => (float)$_POST['price'],
+        'quantity' => 1,
+        'image'    => $_POST['image']
+    ];
+    
+    $subtotal = $buy_now_product['price'];
+} 
+// وإلا، يحسب إجمالي المنتجات الموجودة في السلة (Session Cart)
+elseif (isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
     foreach ($_SESSION['cart'] as $item) {
-
         $subtotal += $item['price'] * $item['quantity'];
-
     }
-
 }
 
 $delivery = 0;
@@ -22,11 +30,19 @@ $discount = 0;
 $total = $subtotal + $delivery - $discount;
 ?>
 
-    <!-- END nav -->
-
     <div class="hero-wrap hero-bread" style="background-image: url('images/bg_6.jpg');">
       <div class="container">
-  <form action="place-order.php" method="POST">
+        <form action="place-order.php" method="POST">
+          
+          <?php if ($buy_now_product): ?>
+            <!-- تحويل بيانات الشراء المباشر مع استمارة الطلب النهائي -->
+            <input type="hidden" name="buy_now" value="1">
+            <input type="hidden" name="product_id" value="<?php echo $buy_now_product['id']; ?>">
+            <input type="hidden" name="product_name" value="<?php echo $buy_now_product['name']; ?>">
+            <input type="hidden" name="price" value="<?php echo $buy_now_product['price']; ?>">
+            <input type="hidden" name="quantity" value="1">
+          <?php endif; ?>
+
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Checkout</span></p>
@@ -45,7 +61,7 @@ $total = $subtotal + $delivery - $discount;
             <div class="row align-items-end">
              <div class="col-md-6">
                  <div class="form-group">
-                  <label for="firstname">Firt Name</label>
+                  <label for="firstname">First Name</label>
                  <input
                         type="text"
                        class="form-control"
@@ -66,12 +82,12 @@ $total = $subtotal + $delivery - $discount;
                 <div class="select-wrap">
                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                     <select name="country" id="" class="form-control">
-                     <option value="">France</option>
-                      <option value="">Italy</option>
-                      <option value="">Philippines</option>
-                      <option value="">South Korea</option>
-                      <option value="">Hongkong</option>
-                      <option value="">Japan</option>
+                      <option value="France">France</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="South Korea">South Korea</option>
+                      <option value="Hongkong">Hongkong</option>
+                      <option value="Japan">Japan</option>
                     </select>
                   </div>
                </div>
@@ -126,11 +142,17 @@ $total = $subtotal + $delivery - $discount;
              </div>
            </div><!-- END billing-form -->
 
-
-
            <div class="cart-detail cart-total bg-light p-3 p-md-4">
 
     <h3 class="billing-heading mb-4">Cart Total</h3>
+
+    <?php if ($buy_now_product): ?>
+      <p class="d-flex text-primary font-weight-bold">
+          <span>Product: <?php echo $buy_now_product['name']; ?></span>
+          <span>$<?php echo number_format($buy_now_product['price'], 2); ?></span>
+      </p>
+      <hr>
+    <?php endif; ?>
 
     <p class="d-flex">
         <span>Subtotal</span>
@@ -202,7 +224,6 @@ $total = $subtotal + $delivery - $discount;
     </div>
 </div>
 
-<!-- ضع الـ Checkbox هنا -->
 <div class="form-group">
     <div class="col-md-12">
         <div class="checkbox">
@@ -234,9 +255,7 @@ $total = $subtotal + $delivery - $discount;
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
 <?php include 'include/scripts.php'; ?>
-
     
   </body>
 </html>

@@ -1,6 +1,51 @@
 <?php include 'include/header.php'; ?>
 <?php include 'include/navbar.php'; ?>
 
+<!-- CSS الخاص بالزراير الجديدة -->
+<style>
+  .btn-custom-cart {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 12px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom-cart:hover {
+    background-color: #f97316 !important;
+    color: #ffffff !important;
+  }
+
+  .btn-custom-buy {
+    background-color: #dbe7f6 !important;
+    color: #000 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 12px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom-buy:hover {
+    background-color: #c5d9f0 !important;
+    color: #000 !important;
+  }
+
+  .btn-custom-buy i {
+    font-size: 13px;
+    line-height: 1;
+  }
+</style>
+
 <?php
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 if ($page < 1) $page = 1;
@@ -9,41 +54,40 @@ $category = isset($_GET['category']) ? $_GET['category'] : 'all';
 
 $all_products = [
     // Shirts & Tops
-    ['id' => 1, 'category' => 'shirts', 'name' => 'Floral Cotton Summer Shirt', 'price' => 45, 'image' => 'images/Floral Cotton Summer Shirt.jpg.jpeg', 'old_price' => 60],
-    ['id' => 2, 'category' => 'shirts', 'name' => 'Casual Button-Up Shirt', 'price' => 50, 'image' => 'images/Casual Button-Up Shirt.jpg.jpeg', 'old_price' => null],
-    ['id' => 3, 'category' => 'shirts', 'name' => 'Classic Polo Top', 'price' => 40, 'image' => 'images/Classic Polo Top.jpg.jpeg', 'old_price' => 55],
-    ['id' => 4, 'category' => 'shirts', 'name' => 'Striped Cotton Shirt', 'price' => 48, 'image' => 'images/Striped Cotton Shirt.jpg.jpeg', 'old_price' => null],
+    ['id' => 10, 'category' => 'shirts', 'name' => 'Floral Cotton Summer Shirt', 'price' => 45, 'image' => 'images/Floral Cotton Summer Shirt.jpg.jpeg', 'old_price' => 60],
+    ['id' => 11, 'category' => 'shirts', 'name' => 'Casual Button-Up Shirt', 'price' => 50, 'image' => 'images/Casual Button-Up Shirt.jpg.jpeg', 'old_price' => null],
+    ['id' => 12, 'category' => 'shirts', 'name' => 'Classic Polo Top', 'price' => 40, 'image' => 'images/Classic Polo Top.jpg.jpeg', 'old_price' => 55],
+    ['id' => 13, 'category' => 'shirts', 'name' => 'Striped Cotton Shirt', 'price' => 48, 'image' => 'images/Striped Cotton Shirt.jpg.jpeg', 'old_price' => null],
 
     // Dresses
-    ['id' => 6, 'category' => 'dresses', 'name' => 'Summer Floral Maxi Dress', 'price' => 85, 'image' => 'images/Summer Floral Maxi Dress.jpg.jpeg', 'old_price' => null],
-    ['id' => 7, 'category' => 'dresses', 'name' => 'Casual Red Summer Dress', 'price' => 75, 'image' => 'images/Casual Red Summer Dress.jpg.jpeg', 'old_price' => 95],
+    ['id' => 14, 'category' => 'dresses', 'name' => 'Casual Red Summer Dress', 'price' => 75, 'image' => 'images/Casual Red Summer Dress.jpg.jpeg', 'old_price' => 95],
 
     // Shorts & Skirts
-    ['id' => 8, 'category' => 'shorts', 'name' => 'High-Waist Casual Skirt', 'price' => 55, 'image' => 'images/High-Waist Casual Skirt.jpg.jpeg', 'old_price' => null],
-    ['id' => 9, 'category' => 'shorts', 'name' => 'Denim Summer Shorts', 'price' => 42, 'image' => 'images/Denim Summer Shorts.jpg.jpeg', 'old_price' => 50],
+    ['id' => 15, 'category' => 'shorts', 'name' => 'High-Waist Casual Skirt', 'price' => 55, 'image' => 'images/High-Waist Casual Skirt.jpg.jpeg', 'old_price' => null],
+    ['id' => 16, 'category' => 'shorts', 'name' => 'Denim Summer Shorts', 'price' => 42, 'image' => 'images/Denim Summer Shorts.jpg.jpeg', 'old_price' => 50],
 
     // Jackets & Coats
-    ['id' => 10, 'category' => 'jackets', 'name' => 'Classic Denim Jacket', 'price' => 95, 'image' => 'images/Classic Denim Jacket.jpg.jpeg', 'old_price' => 120],
-    ['id' => 11, 'category' => 'jackets', 'name' => 'Leather Biker Jacket', 'price' => 140, 'image' => 'images/Leather Biker Jacket.jpg.jpeg', 'old_price' => null],
+    ['id' => 17, 'category' => 'jackets', 'name' => 'Classic Denim Jacket', 'price' => 95, 'image' => 'images/Classic Denim Jacket.jpg.jpeg', 'old_price' => 120],
+    ['id' => 18, 'category' => 'jackets', 'name' => 'Leather Biker Jacket', 'price' => 140, 'image' => 'images/Leather Biker Jacket.jpg.jpeg', 'old_price' => null],
 
     // Jeans & Trousers
-    ['id' => 12, 'category' => 'jeans', 'name' => 'Slim Fit Blue Jeans', 'price' => 65, 'image' => 'images/Slim Fit Blue Jeans.jpg.jpeg', 'old_price' => 80],
-    ['id' => 13, 'category' => 'jeans', 'name' => 'Classic Chino Trousers', 'price' => 60, 'image' => 'images/Classic Chino Trousers.jpg.jpeg', 'old_price' => null],
+    ['id' => 19, 'category' => 'jeans', 'name' => 'Slim Fit Blue Jeans', 'price' => 65, 'image' => 'images/Slim Fit Blue Jeans.jpg.jpeg', 'old_price' => 80],
+    ['id' => 20, 'category' => 'jeans', 'name' => 'Classic Chino Trousers', 'price' => 60, 'image' => 'images/Classic Chino Trousers.jpg.jpeg', 'old_price' => null],
 
     // Sleeveless
-    ['id' => 14, 'category' => 'sleeveless', 'name' => 'Sleeveless Casual Top', 'price' => 35, 'image' => 'images/Sleeveless Casual Top.jpg.jpeg', 'old_price' => null],
-    ['id' => 15, 'category' => 'sleeveless', 'name' => 'Summer Tank Top', 'price' => 30, 'image' => 'images/Summer Tank Top.jpg.jpeg', 'old_price' => 40],
+    ['id' => 21, 'category' => 'sleeveless', 'name' => 'Sleeveless Casual Top', 'price' => 35, 'image' => 'images/Sleeveless Casual Top.jpg.jpeg', 'old_price' => null],
+    ['id' => 22, 'category' => 'sleeveless', 'name' => 'Summer Tank Top', 'price' => 30, 'image' => 'images/Summer Tank Top.jpg.jpeg', 'old_price' => 40],
 
     // Jumpsuits
-    ['id' => 17, 'category' => 'jumpsuits', 'name' => 'Stylish Black Jumpsuit', 'price' => 90, 'image' => 'images/Stylish Black Jumpsuit.jpg.jpeg', 'old_price' => null],
+    ['id' => 23, 'category' => 'jumpsuits', 'name' => 'Stylish Black Jumpsuit', 'price' => 90, 'image' => 'images/Stylish Black Jumpsuit.jpg.jpeg', 'old_price' => null],
 
     // Shoes & Sneakers
-    ['id' => 18, 'category' => 'shoes', 'name' => 'Urban Running Sneakers', 'price' => 85, 'image' => 'images/Urban Running Sneakers.jpg.jpeg', 'old_price' => 110],
-    ['id' => 19, 'category' => 'shoes', 'name' => 'Sporty Running Shoes', 'price' => 78, 'image' => 'images/Sporty Running Shoes.jpg.jpeg', 'old_price' => null],
+    ['id' => 24, 'category' => 'shoes', 'name' => 'Urban Running Sneakers', 'price' => 85, 'image' => 'images/Urban Running Sneakers.jpg.jpeg', 'old_price' => 110],
+    ['id' => 25, 'category' => 'shoes', 'name' => 'Sporty Running Shoes', 'price' => 78, 'image' => 'images/Sporty Running Shoes.jpg.jpeg', 'old_price' => null],
 
     // Bags & Accessories
-    ['id' => 20, 'category' => 'bags', 'name' => 'Leather Crossbody Bag', 'price' => 70, 'image' => 'images/Leather Crossbody Bag.jpg.jpeg', 'old_price' => 90],
-    ['id' => 21, 'category' => 'bags', 'name' => 'Canvas Travel Backpack', 'price' => 55, 'image' => 'images/Canvas Travel Backpack.jpg.jpeg', 'old_price' => null]
+    ['id' => 26, 'category' => 'bags', 'name' => 'Leather Crossbody Bag', 'price' => 70, 'image' => 'images/Leather Crossbody Bag.jpg.jpeg', 'old_price' => 90],
+    ['id' => 27, 'category' => 'bags', 'name' => 'Canvas Travel Backpack', 'price' => 55, 'image' => 'images/Canvas Travel Backpack.jpg.jpeg', 'old_price' => null]
 ];
 
 if ($category != 'all') {
@@ -52,7 +96,6 @@ if ($category != 'all') {
     });
 } else {
     $filtered_products = $all_products;
-    shuffle($filtered_products); 
 }
 
 $limit = 6;
@@ -125,25 +168,19 @@ $current_title = isset($category_names[$category]) ? $category_names[$category] 
                               <?php endif; ?>
                               <span class="price-sale">$<?php echo $prod['price']; ?>.00</span>
                             </p>
-                          </div>
-                          <div class="rating">
-                            <p class="text-right">
-                              <a href="#"><span class="ion-ios-star-outline"></span></a>
-                              <a href="#"><span class="ion-ios-star-outline"></span></a>
-                              <a href="#"><span class="ion-ios-star-outline"></span></a>
-                              <a href="#"><span class="ion-ios-star-outline"></span></a>
-                              <a href="#"><span class="ion-ios-star-outline"></span></a>
-                            </p>
-                          </div>
+                          </div>  
                         </div>
-                        <p class="bottom-area d-flex px-3">
-                          <button type="submit" class="btn btn-primary mr-2 flex-fill">
-                            <i class="ion-ios-cart"></i> Add to Cart
+                        
+                        <!-- الزراير بالمظهر الجديد وتوجيه Buy Now لـ checkout.php -->
+                        <p class="bottom-area d-flex align-items-center justify-content-between px-2">
+                          <button type="submit" class="btn btn-custom-cart flex-fill mr-1">
+                            ADD TO CART <i class="ion-ios-add ml-1"></i>
                           </button>
-                          <a href="#" class="btn btn-outline-dark flex-fill">
-                            <i class="ion-ios-flash"></i> Buy Now
-                          </a>
+                          <button type="submit" formaction="checkout.php" class="btn btn-custom-buy flex-fill ml-1 d-flex align-items-center justify-content-center">
+                            BUY NOW <i class="ion-ios-cart ml-1"></i>
+                          </button>
                         </p>
+
                       </div>
                     </div>
                   </form>

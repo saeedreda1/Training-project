@@ -13,12 +13,12 @@
 	          	</div>
 		          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Winkel eCommerce Shop</span>
+		          		<span class="subheading">SIGMA ECOMMERCE SHOP</span>
 		          		<div class="horizontal">
-		          			<h3 class="vr" style="background-image: url(images/divider.jpg);">Stablished Since 2000</h3>
+		          			<h3 class="vr" style="background-image: url(images/divider.jpg);">TRENDING STYLE</h3>
 				            <h1 class="mb-4 mt-3">Catch Your Own <br><span>Stylish &amp; Look</span></h1>
-				            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
-				            
+				            <p>Discover premium men's fashion with modern designs,
+								high-quality materials, and timeless style for every occasion.</p>
 				            <p><a href="shop.php" class="btn btn-primary px-5 py-3 mt-3">Discover Now</a></p>
 				          </div>
 		            </div>
@@ -35,12 +35,12 @@
 	          	</div>
 		          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Winkel eCommerce Shop</span>
+		          		<span class="subheading">SIGMA ECOMMERCE SHOP</span>
 		          		<div class="horizontal">
 		          			<h3 class="vr" style="background-image: url(images/divider.jpg);">Best eCommerce Online Shop</h3>
-				            <h1 class="mb-4 mt-3">A Thouroughly <span>Modern</span> Woman</h1>
-				            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
-				            
+				            <h1 class="mb-4 mt-3">A Thouroughly <span>Modern</span> Fashion</h1>
+				            <p>Discover our latest women's fashion collection.
+								Elegant designs, premium quality, and styles made for every occasion.</p>
 				            <p><a href="shop.php" class="btn btn-primary px-5 py-3 mt-3">Shop Now</a></p>
 				          </div>
 		            </div>
@@ -62,11 +62,13 @@
 					<div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section-bold mb-4 mt-md-5">
 	          	<div class="ml-md-0">
-		            <h2 class="mb-4">Better Way to Ship Your Products</h2>
+		            <h2 class="mb-4">Why Choose Sigma Fashion Store?</h2>
 	            </div>
 	          </div>
 	          <div class="pb-md-5">
-							<p>But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+							<p>At Sigma Fashion Store, we provide high-quality clothing,
+								fast delivery, secure shopping, and exceptional customer service
+								to ensure the best shopping experience.</p>
 							<div class="row ftco-services">
 			          <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
 			            <div class="media block-6 services">
@@ -74,8 +76,9 @@
 			            		<span class="flaticon-002-recommended"></span>
 			              </div>
 			              <div class="media-body">
-			                <h3 class="heading">Refund Policy</h3>
-			                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+			                <h3 class="heading">Easy Returns</h3>
+			                <p>Return or exchange your products easily
+								within our return policy period.</p>
 			              </div>
 			            </div>      
 			          </div>
@@ -86,7 +89,8 @@
 			              </div>
 			              <div class="media-body">
 			                <h3 class="heading">Premium Packaging</h3>
-			                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+			                <p>Every order is carefully packed to keep
+								your products safe and in perfect condition.</p>
 			              </div>
 			            </div>    
 			          </div>
@@ -96,8 +100,9 @@
 			            		<span class="flaticon-003-medal"></span>
 			              </div>
 			              <div class="media-body">
-			                <h3 class="heading">Superior Quality</h3>
-			                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+			                <h3 class="heading">High Quality</h3>
+			                <p>We offer premium-quality clothing made
+								from comfortable and durable materials.</p>
 			              </div>
 			            </div>      
 			          </div>
@@ -112,8 +117,9 @@
     	<div class="container">
 				<div class="row justify-content-center mb-3 pb-3">
           <div class="col-md-12 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Best Sellers</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <h2 class="mb-4">Featured Products</h2>
+            <p>Discover our handpicked collection of stylish clothing,
+				designed with premium quality and modern fashion for every occasion.</p>
           </div>
         </div>   		
     	</div>
@@ -127,23 +133,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Classic Denim Jacket</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
 		    						<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
 	    					<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=1&name=Floral Jackquard Pullover&price=80.00&image=images/product-1.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=1&name=Classic Denim Jacket&price=80.00&image=images/product-1.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -156,23 +153,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Elegant Gray Dress</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$90.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=2&name=Floral Jackquard Pullover&price=120.00&image=images/product-2.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=2&name=Elegant Gray Dress&price=90.00&image=images/product-2.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -185,23 +173,14 @@
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">White Summer Dress</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$100.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=3&name=Floral Jackquard Pullover&price=120.00&image=images/product-3.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=3&name=White Summer Dress&price=100.00&image=images/product-3.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -214,23 +193,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Casual White Blouse</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$60.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=4&name=Floral Jackquard Pullover&price=120.00&image=images/product-4.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=4&name=Casual White Blouse&price=60.00&image=images/product-4.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -248,8 +218,8 @@
     			</div>
     			<div class="col-md-4 py-md-5 ftco-animate">
     				<div class="text py-3 py-md-5">
-	            <h2 class="mb-4">New Women's Clothing Summer Collection 2019</h2>
-	            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	            <h2 class="mb-4">Elegant Women's Collection</h2>
+	            <p>Discover our latest women's fashion collection featuring elegant designs, premium fabrics, and modern styles for every occasion.</p>
 	            <p><a href="shop.php" class="btn btn-white px-4 py-3">Shop now</a></p>
     				</div>
     			</div>
@@ -261,8 +231,8 @@
     			</div>
     			<div class="col-md-7 py-3 py-md-5 ftco-animate">
     				<div class="text text-2 py-md-5">
-	            <h2 class="mb-4">New Men's Clothing Summer Collection 2019</h2>
-	            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+	            <h2 class="mb-4">Men's Fashion Collection</h2>
+	            <p>Explore stylish men's clothing with premium quality, comfortable fits, and timeless designs for everyday wear.</p>
 	            <p><a href="shop.php" class="btn btn-white px-4 py-3">Shop now</a></p>
     				</div>
     			</div>
@@ -289,23 +259,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Summer Casual Dress</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p>
+		    						<p class="price"><span class="mr-2 price-dc">$95.00</span><span class="price-sale">$65.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=5&name=Floral Jackquard Pullover&price=80.00&image=images/product-5.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=5&name=Summer Casual Dress&price=65.00&image=images/product-5.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -318,23 +279,14 @@
 	    					<div class="overlay"></div>
 	    				</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Elegant Evening Gown</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$150.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=6&name=Floral Jackquard Pullover&price=120.00&image=images/product-6.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=6&name=Elegant Evening Gown&price=150.00&image=images/product-6.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -347,23 +299,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Classic Black Dress</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$90.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=7&name=Floral Jackquard Pullover&price=120.00&image=images/product-7.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=7&name=Classic Black Dress&price=90.00&image=images/product-7.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>
@@ -376,23 +319,14 @@
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
-    						<h3><a href="product-single.php">Floral Jackquard Pullover</a></h3>
+    						<h3><a href="product-single.php">Classic Denim Jacket</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>$120.00</span></p>
+		    						<p class="price"><span>$80.00</span></p>
 		    					</div>
-		    					<div class="rating">
-	    							<p class="text-right">
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    								<a href="#"><span class="ion-ios-star-outline"></span></a>
-	    							</p>
-	    						</div>
 	    					</div>
     						<p class="bottom-area d-flex px-3">
-    							<a href="add-to-cart.php?id=8&name=Floral Jackquard Pullover&price=120.00&image=images/product-8.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+    							<a href="add-to-cart.php?id=8&name=Classic Denim Jacket&price=80.00&image=images/product-8.jpg" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
     							<a href="checkout.php" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
     						</p>
     					</div>

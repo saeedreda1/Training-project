@@ -43,7 +43,10 @@ if ($id) {
 }
 
 // التوجيه فوراً لصفحة السلة في كل الأحوال
-header("Location: cart.php");
+if (isset($_REQUEST['buy'])) {
+    header("Location: checkout.php");
+} else {
+    header("Location: cart.php");
+}
 exit();
-
 ?>

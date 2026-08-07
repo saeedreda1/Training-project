@@ -11,9 +11,14 @@ $message = "";
 if (isset($_POST['login'])) {
 
     $email = trim($_POST['email']);
-    $password = $_POST['password'];
+$password = $_POST['password'];
 
-    // Check user by email
+if (strlen($password) < 8 || strlen($password) > 25) {
+
+    $message = "Password must be between 8 and 25 characters long.";
+
+} else {
+
     $stmt = $conn->prepare(
         "SELECT id, name, email, password FROM users WHERE email = ?"
     );
@@ -27,15 +32,12 @@ if (isset($_POST['login'])) {
 
         $user = $result->fetch_assoc();
 
-        // Verify password
         if (password_verify($password, $user['password'])) {
 
-            // Store user data in session
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_name'] = $user['name'];
             $_SESSION['user_email'] = $user['email'];
 
-            // Redirect to Home
             header("Location: index.php");
             exit();
 
@@ -52,6 +54,8 @@ if (isset($_POST['login'])) {
     }
 
     $stmt->close();
+}
+
 }
 
 ?>

@@ -15,13 +15,17 @@ if (isset($_POST['register'])) {
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    if ($password !== $confirm_password) {
+    if (strlen($password) < 8 || strlen($password) > 25) {
+
+        $message = "Password must be between 8 and 25 characters.";
+
+    } elseif ($password !== $confirm_password) {
 
         $message = "Passwords do not match!";
 
     } else {
 
-        // Check if email already exists
+    // Check if email already exists
         $check = $conn->prepare("SELECT id FROM users WHERE email = ?");
         $check->bind_param("s", $email);
         $check->execute();
@@ -68,6 +72,7 @@ if (isset($_POST['register'])) {
         $check->close();
     }
 }
+
 ?>
 
 <?php
@@ -109,7 +114,7 @@ include 'include/header.php';
                     Enter your information to create your account
                 </p>
                 <?php if (!empty($message)): ?>
-                <div class="alert alert-info">
+                <div class="alert alert-danger">
                 <?php echo $message; ?>
                 </div>
                 <?php endif; ?>
@@ -140,6 +145,8 @@ include 'include/header.php';
                 name="password"
                 class="form-control"
                 placeholder="Enter your password"
+                minlength="8"
+                maxlength="25"
                 required>
         </div>
 
@@ -149,6 +156,8 @@ include 'include/header.php';
                 name="confirm_password"
                 class="form-control"
                 placeholder="Confirm your password"
+                minlength="8"
+                maxlength="25"
                 required>
         </div>
 
