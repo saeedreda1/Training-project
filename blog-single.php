@@ -162,12 +162,10 @@
             <div class="sidebar-box ftco-animate">
             	<h3 CLASS="heading">Categories</h3>
               <ul class="categories">
-                <li><a href="#">Bags <span>(12)</span></a></li>
-                <li><a href="#">Shoes <span>(22)</span></a></li>
-                <li><a href="#">Dress <span>(37)</span></a></li>
-                <li><a href="#">Accessories <span>(42)</span></a></li>
-                <li><a href="#">Makeup <span>(14)</span></a></li>
-                <li><a href="#">Beauty <span>(140)</span></a></li>
+                <li><a href="shop.php">Bags <span>(2)</span></a></li>
+                <li><a href="shop.php">Shoes <span>(2)</span></a></li>
+                <li><a href="shop.php">Dress <span>(8)</span></a></li>
+                <li><a href="shop.php">Clothes <span>(15)</span></a></li>
               </ul>
             </div>
 
@@ -211,14 +209,13 @@
             <div class="sidebar-box ftco-animate">
               <h3 CLASS="heading">Tag Cloud</h3>
               <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">shop</a>
-                <a href="#" class="tag-cloud-link">products</a>
-                <a href="#" class="tag-cloud-link">shirt</a>
-                <a href="#" class="tag-cloud-link">jeans</a>
-                <a href="#" class="tag-cloud-link">shoes</a>
-                <a href="#" class="tag-cloud-link">dress</a>
-                <a href="#" class="tag-cloud-link">coats</a>
-                <a href="#" class="tag-cloud-link">jumpsuits</a>
+                <a href="shop.php" class="tag-cloud-link">shop</a>
+                <a href="shop.php" class="tag-cloud-link">products</a>
+                <a href="shop.php" class="tag-cloud-link">shirt</a>
+                <a href="shop.php" class="tag-cloud-link">jeans</a>
+                <a href="shop.php" class="tag-cloud-link">shoes</a>
+                <a href="shop.php" class="tag-cloud-link">dress</a>
+                <a href="shop.php" class="tag-cloud-link">coats</a>
               </div>
             </div>
 

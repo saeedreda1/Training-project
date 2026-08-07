@@ -140,13 +140,10 @@
             <div class="sidebar-box ftco-animate">
             	<h3 class="heading">Sections</h3>
               <ul class="categories">
-                <li><a href="#">Bags <span>(15)</span></a></li>
-                <li><a href="#">Shoes <span>(28)</span></a></li>
-                <li><a href="#">Dress <span>(45)</span></a></li>
-                <li><a href="#">Accessories <span>(50)</span></a></li>
-                <li><a href="#">Makeup <span>(18)</span></a></li>
-                <li><a href="#">Beauty <span>(120)</span></a></li>
-                <li><a href="#">Clothes <span>(85)</span></a></li>
+                <li><a href="shop.php">Bags <span>(2)</span></a></li>
+                <li><a href="shop.php">Shoes <span>(2)</span></a></li>
+                <li><a href="shop.php">Dress <span>(8)</span></a></li>
+                <li><a href="shop.php">Clothes <span>(15)</span></a></li>
               </ul>
             </div>
 
@@ -190,16 +187,16 @@
             <div class="sidebar-box ftco-animate">
               <h3 class="heading">Topics</h3>
               <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">bags</a>
-                <a href="#" class="tag-cloud-link">products</a>
-                <a href="#" class="tag-cloud-link">shirt</a>
-                <a href="#" class="tag-cloud-link">jeans</a>
-                <a href="#" class="tag-cloud-link">shoes</a>
-                <a href="#" class="tag-cloud-link">dress</a>
-                <a href="#" class="tag-cloud-link">jackets</a>
-                <a href="#" class="tag-cloud-link">jumpsuits</a>
-                <a href="#" class="tag-cloud-link">makeup</a>
-                <a href="#" class="tag-cloud-link">skincare</a>
+                <a href="shop.php" class="tag-cloud-link">bags</a>
+                <a href="shop.php" class="tag-cloud-link">products</a>
+                <a href="shop.php" class="tag-cloud-link">shirt</a>
+                <a href="shop.php" class="tag-cloud-link">jeans</a>
+                <a href="shop.php" class="tag-cloud-link">shoes</a>
+                <a href="shop.php" class="tag-cloud-link">dress</a>
+                <a href="shop.php" class="tag-cloud-link">jackets</a>
+                <a href="shop.php" class="tag-cloud-link">jumpsuits</a>
+                <a href="shop.php" class="tag-cloud-link">makeup</a>
+                <a href="shop.php" class="tag-cloud-link">skincare</a>
               </div>
             </div>
 
